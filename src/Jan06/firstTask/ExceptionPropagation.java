@@ -1,5 +1,5 @@
 
-package Jan06;
+package Jan06.firstTask;
 
 
 public class ExceptionPropagation {
