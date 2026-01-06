@@ -21,7 +21,7 @@ public class TestCalendar {
         System.out.println("Day_Of_Year " + calendar.get(Calendar.DAY_OF_YEAR));
         System.out.println("Week_Of_Month " + calendar.get(Calendar.WEEK_OF_MONTH));
         System.out.println("Week_Of_Year " + calendar.get(Calendar.WEEK_OF_YEAR));
-        System.out.println("Hour " + calendar.get(Calendar.HOUR));
+        System.out.println("AM_PM " + calendar.get(Calendar.AM_PM));
        
         
     }
