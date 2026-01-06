@@ -1,5 +1,5 @@
 
-package Jan06.secondTask;
+package Jan06.thirdTask;
 
 import Jan06.secondTask.Address;
 

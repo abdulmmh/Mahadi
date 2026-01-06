@@ -2,6 +2,7 @@
 package Jan06.secondTask;
 
 
+import Jan06.thirdTask.Trainee;
 import Jan06.secondTask.Address;
 import java.util.HashMap;
 import java.util.Map;

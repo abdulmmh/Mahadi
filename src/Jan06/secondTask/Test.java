@@ -1,7 +1,7 @@
 
 package Jan06.secondTask;
 
-import Jan06.secondTask.Trainee;
+import Jan06.thirdTask.Trainee;
 import Jan06.secondTask.Trainees;
 import Jan06.secondTask.GetTrainees;
 import java.util.HashMap;

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package Jan06.empmgt.ui;
-import  Jan06.empmgt.model.Employee;
+import  empmgt.model.Employee;
 
 /**
  *

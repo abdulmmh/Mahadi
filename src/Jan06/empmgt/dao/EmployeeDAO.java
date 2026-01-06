@@ -1,6 +1,6 @@
 
-package Jan06.empmgt.dao;
-
+package empmgt.dao;
+import  empmgt.model.Employee;
 
 public class EmployeeDAO {
     public 

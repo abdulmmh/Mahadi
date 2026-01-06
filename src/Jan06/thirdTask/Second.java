@@ -1,5 +1,5 @@
 
-package Jan06;
+package Jan06.thirdTask;
 
 import java.util.ArrayList;
 import java.util.List;

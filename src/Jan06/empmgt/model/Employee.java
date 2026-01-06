@@ -1,5 +1,5 @@
 
-package Jan06.empmgt.model;
+package empmgt.model;
 
 
 public class Employee {
