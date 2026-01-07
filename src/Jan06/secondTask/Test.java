@@ -1,7 +1,6 @@
 
 package Jan06.secondTask;
 
-import Jan06.thirdTask.Trainee;
 import Jan06.secondTask.Trainees;
 import Jan06.secondTask.GetTrainees;
 import java.util.HashMap;
@@ -13,10 +12,7 @@ public class Test {
         Trainees t = new GetTrainees();
         Map<Integer, Trainee> traineee = t.getTrainees();
         
-        for (Map.Entry<Integer, Trainee> entry : traineee.entrySet()) {
-            System.out.println("Key = " + entry.getKey());
-            System.out.println(entry.getValue());
-        }
+        System.out.println(traineee.toString());
 
     }
 }
