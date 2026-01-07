@@ -5,9 +5,7 @@ package Jan07.Thread;
 public class TestThread {
     public static void main(String[] args) {
         ThreadByClass tb = new ThreadByClass();
-        tb.start();
-        ThreadByInterface ti = new ThreadByInterface();
-        ti.run();
+        
     }
     
 }
