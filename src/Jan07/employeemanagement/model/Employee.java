@@ -1,5 +1,5 @@
 
-package Jan06.empmgt.model;
+package Jan07.employeemanagement.model;
 
 
 public class Employee {
@@ -14,18 +14,6 @@ public class Employee {
 
     public Employee() {
     }
-
-    public Employee(int id, String fName, String lName, String desig, String dept, double salary, int age, String addr) {
-        this.id = id;
-        this.fName = fName;
-        this.lName = lName;
-        this.desig = desig;
-        this.dept = dept;
-        this.salary = salary;
-        this.age = age;
-        this.addr = addr;
-    }
-    
 
     public int getId() {
         return id;
@@ -93,14 +81,15 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee details: " + 
-                "\nID = " + id + 
-                "\nFirst Name = " + fName + 
-                "\nLast Name = " + lName + 
-                "\nDesignation = " + desig + 
-                "\nDepartment = " + dept + 
-                "\nSalary = " + salary + 
-                "\nAge = " + age + 
-                "\nAddress = " + addr ;
-    }  
+        return "Employee Details: " + 
+                "\nid = " + id + 
+                "\nFull Name =" + fName +" " + lName + 
+                "\nDesignation =" + desig + 
+                "\nDepartment =" + dept + 
+                "\nSalary =" + salary + 
+                "\nAge =" + age + 
+                "\nAddress =" + addr;
+    }
+    
+    
 }

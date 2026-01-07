@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package Jan06.empmgt.ui;
-import  empmgt.model.Employee;
+
+import Jan06.empmgt.controller.EmployeeController;
+import Jan06.empmgt.model.Employee;
 
 /**
  *
@@ -206,6 +208,11 @@ public class EmployeeUI extends javax.swing.JFrame {
         String salary = this.salary.getText();
         String age = this.age.getText();
         String addr = address.getText();
+        Employee emp = new Employee(Integer.valueOf(id), fName, lName, desig, dept, Double.valueOf(salary), Integer.valueOf(age), addr);
+        
+        EmployeeController ec = new EmployeeController();
+        Employee em = ec.create(emp);
+        System.out.println(em);
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void designationActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_designationActionPerformed
