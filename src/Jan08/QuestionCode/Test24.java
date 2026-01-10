@@ -5,6 +5,7 @@ class Base{
     int value = 0;
     public Base() {
         addValue();
+        // Even inside a parent constructor, overridden methods are called from the child class.
     }
     
     void addValue(){
@@ -30,6 +31,4 @@ public class Test24 {
         Base b = new Derived();
         System.out.println(b.getValue());
     }
-    
-    
 }
