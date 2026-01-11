@@ -11,6 +11,6 @@ public class Test12 {
             }
         }
     }
-     System.out.println(j);
+//     System.out.println(j);
 
 }
