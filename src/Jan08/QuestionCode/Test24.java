@@ -10,6 +10,7 @@ class Base{
     
     void addValue(){
         value += 10;
+        System.out.println("i am called");
     }
     
     int getValue(){
@@ -26,6 +27,7 @@ class Derived extends Base{
         value += 20;
     }
 }
+
 public class Test24 {
     public static void main(String[] args) {
         Base b = new Derived();

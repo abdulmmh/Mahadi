@@ -4,7 +4,7 @@ package Jan11;
 
 public class Test extends Car{
     public static void main(String[] args) {
-        
+        System.out.println("Hi");
     }
 }
 //
